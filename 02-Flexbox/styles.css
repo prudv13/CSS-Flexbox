@@ -1,0 +1,30 @@
+.flex-container {
+    width: 408px;
+    height: 200px;
+    background-color: #B0D9B1;
+    display: flex;
+    flex-direction: row;
+    border: 4px solid #212226;
+}
+
+.fi {
+    width: 40px;
+    background-color: #618264;
+    margin: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* ======================== */
+
+.flex-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-1 {
+    
+}

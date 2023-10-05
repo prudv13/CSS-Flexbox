@@ -1,0 +1,61 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    background-color: #fff;
+    color: #222;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.home, .logout, .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+}
+
+.home {
+    background-color: lightgreen;
+}
+
+.search {
+    background-color: lightskyblue;
+}
+
+.logout {
+    background-color: lightcoral;
+}
+
+/* ------------ flex grow, shrink, basis -------------- */
+
+.home {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.search {
+    flex-grow: 3;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.logout {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+/* ------------ flex shorthand -------------- */
+
+.home {
+    flex: 1 1 auto;
+}
+
+.search {
+    flex: 3 1 auto;
+}
+
+.logout {
+    flex: 1 1 auto;
+}

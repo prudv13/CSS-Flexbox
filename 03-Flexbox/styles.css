@@ -1,0 +1,33 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    background-color: #fff;
+    color: #222;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.home, .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+}
+
+.home {
+    background-color: lightgreen;
+}
+
+.logout {
+    background-color: lightcoral;
+}
+
+/* ------------ flex grow, shrink, basis -------------- */
+
+.home {
+    flex-basis: 200px;
+}
+
+.logout {
+    flex-basis: 200px;
+}

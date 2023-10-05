@@ -25,9 +25,15 @@
 /* ------------ flex grow, shrink, basis -------------- */
 
 .home {
+    flex-grow: 0;
+
+    flex-grow: 3;
     flex-basis: 200px;
 }
 
 .logout {
+    flex-grow: 0;
+
+    flex-grow: 1;
     flex-basis: 200px;
 }
